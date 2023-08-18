@@ -1,0 +1,31 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "editor.tabSize": 2,
+  "editor.rulers": [120],
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.ts": "database",
+    "tsconfig.json": "tune"
+  },
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
